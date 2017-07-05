@@ -9,7 +9,10 @@
 #include<algorithm>
 #include<fstream>
 #include<string>
-#define singleGapPenalty
+/*
+* SingleGapPenalty means if the A, T, C, G have different gap penalties
+*/
+#define SingleGapPenalty
 #define cerr(x) cout<<(#x)<<": "<<(x)<<endl;
 using namespace std;
 
@@ -186,7 +189,7 @@ int main(int argc, char** argv)
 	}
 	ifScore >> temp;
 
-#ifdef singleGapPenalty
+#ifdef SingleGapPenalty
 	ifScore >> gapPenalty[0];
 	gapPenalty[3] = gapPenalty[2] = gapPenalty[1] = gapPenalty[0];
 #else
