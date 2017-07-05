@@ -7,8 +7,7 @@ For more information about this homework please visit github repository <https:/
 
 # 2 Contents
 
-├──│
-
+```
 homework
  ├── DataScienceHomeworw                vs2015 porject
  │    ├── DataScienceHomework
@@ -19,7 +18,7 @@ homework
  ├── B.txt                              sample file : the second DNA sequence file
  ├── S.txt                              sample file : score matrix and gap penalty file
  └── README.md
-
+```
 
 My homework include a Vistual Studio 2015 project folder, a An executable file, three parameter files named "A.txt", "B.txt", "S.txt", and a readme file that you are reading.
 
@@ -39,7 +38,7 @@ You can run the executable file in Powershell by command line like this : DataSc
 
 <3rdFile> talls the scoring matrix and gap penalty ,whose format likes that：
 
-'''
+```
 scoreMatrix:
   A	T	G	C
 A	1	-2	-2	-2
@@ -49,17 +48,17 @@ C	-2	-2	-2	1
 
 GapPenalty:
 -2
-'''
+```
 
 ↑ When the SingleGapPenalty isn't define ,which is default ↑
 
-'''
+```
 scoreMatrix:
 ...
 
 GapPenalty:
 -1 -2 -3 -4
-'''
+```
 ↑ When the SingleGapPenalty isn't define ,which is default ↑
 
 ## 3.2 Output
@@ -77,4 +76,5 @@ sequences 2 from  2004 to  2030 : GAAGTTGAGCACGTGATGCCTAAGTTC
 Contact me at anytime :
 
   github <https://github.com/wmpeng/DataScienceHomework>
+  
   email <wmpeng@outlook.com>
