@@ -163,7 +163,7 @@ int main(int argc, char** argv)
 	string seqA, seqB;
 	double scoreM[4][4], gapPenalty[4];
 	ifstream ifSeqA, ifSeqB, ifScore;
-
+	
 	if (!check(argc, argv, ifSeqA, ifSeqB, ifScore))
 		return 0;
 
