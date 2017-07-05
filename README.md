@@ -9,7 +9,7 @@ For more information about this homework please visit github repository <https:/
 
 ```
 homework
- ├── DataScienceHomeworw                vs2015 porject
+ ├── DataScienceHomework                vs2015 porject
  │    ├── DataScienceHomework
  │    │    └ smithWaterman.cpp          source code file
  │    └── DataScienceHomework.sln
@@ -24,7 +24,7 @@ My homework include a Vistual Studio 2015 project folder, a An executable file, 
 
 The source code's path is ".\DataScienceHomework\DataScienceHomework\smithWaterman.cpp".
 
-The executable file is "DataScienceHomework.exe"
+The executable file is "DataScienceHomework.exe".
 
 # 3 Run Process
 
@@ -40,7 +40,7 @@ You can run the executable file in Powershell by command line like this : DataSc
 
 ```
 scoreMatrix:
-  A	T	G	C
+	A	T	G	C
 A	1	-2	-2	-2
 T	-2	1	-2	-2
 G	-2	-2	1	-2
@@ -63,7 +63,7 @@ GapPenalty:
 
 ## 3.2 Output
 
-The result will be output at screen. When the the parameter files are the sample files, the result is :
+The result will be output at screen. When the the parameter files are the sample files (different and gap -2, the same +1), the result is :
 
 ```
 highest value is 18.000000
@@ -76,5 +76,5 @@ sequences 2 from  2004 to  2030 : GAAGTTGAGCACGTGATGCCTAAGTTC
 Contact me at anytime :
 
   github <https://github.com/wmpeng/DataScienceHomework>
-  
+
   email <wmpeng@outlook.com>
